@@ -18,8 +18,8 @@ contract MDATokenFactory is Ownable {
     using SafeMath for uint;
 
     IERC20Metadata private mda;
-    uint256 private deployPriceBNB = 100000000000000000; // 0.1 BNB
-    uint256 private deployPriceMDA = 556799999999999930000; // 557 MDA (-20%) => 0.08 BNB
+    uint256 private deployPriceBNB = 500000000000000000000; // 0.1 BNB
+    uint256 private deployPriceMDA = 5567999999999999300000; // 557 MDA (-20%) => 0.08 BNB
 
     constructor(address _mda){
         mda = IERC20Metadata(_mda);
